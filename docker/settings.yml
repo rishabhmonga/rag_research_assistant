@@ -1,0 +1,20 @@
+---
+use_default_settings: true
+
+server:
+  base_url: http://127.0.0.1:8080/
+  bind_address: 0.0.0.0
+  secret_key: "change-me"
+  public_instance: true
+  image_proxy: false
+  limiter: false
+  method: "GET"
+
+ui:
+  default_locale: en
+
+search:
+  safesearch: 1
+  formats:
+    - html
+    - json

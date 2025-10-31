@@ -1,0 +1,24 @@
+# Core dependencies
+streamlit
+python-dotenv
+requests
+tqdm
+
+# Web scraping and parsing
+trafilatura
+beautifulsoup4
+lxml
+
+# Embeddings and vector store
+chromadb
+
+# Local model inference via Ollama
+ollama
+
+# Utilities
+pandas
+openpyxl
+tzdata
+
+# Optional but recommended
+markdownify
